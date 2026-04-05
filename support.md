@@ -43,19 +43,8 @@
 
 <footer>
   &copy; 2026 Kitty Gifts &nbsp;·&nbsp;
-  <a href="privacy-policy.html">Privacy Policy</a>
 </footer>
 
-<script>
-  document.querySelectorAll(".faq-q").forEach(function(q) {
-    q.addEventListener("click", function() {
-      var item = this.closest(".faq-item");
-      var isOpen = item.classList.contains("open");
-      document.querySelectorAll(".faq-item").forEach(function(i) { i.classList.remove("open"); });
-      if (!isOpen) item.classList.add("open");
-    });
-  });
-</script>
 
 </body>
 </html>
